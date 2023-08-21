@@ -1,0 +1,219 @@
+.button-transition {
+  background: none;
+  border-radius: 5px;
+  color: inherit;
+  transition-duration: 0.2s;
+  font-size: 1em;
+  text-align: center;
+}
+
+.button-transition:hover {
+  border-radius: 10px;
+  background-color: #C5BEBE;
+  color: white;
+  font-size: 1.15em;
+}
+
+.ledToggler {
+  text-align: left;
+  margin: 0;
+  background: none;
+  /* color: inherit; */
+  border: none;
+  padding: 0;
+  font: inherit;
+  /* cursor: pointer; */
+  outline: inherit;
+  transition: 0.1s;
+}
+
+.ledTogglerEnabled {
+  color: inherit;
+  cursor: pointer;
+}
+
+.ledHover:hover {
+  color:#C5BEBE;
+}
+
+.ledTogglerDisalbed {
+  color:#C5BEBE;
+  cursor: default;
+}
+
+.onButtonClick {
+  color: black;
+  pointer-events: none;
+}
+
+.tiltSensorData {
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 1.5px;
+  border-color: #C5BEBE;
+  width: 160px;
+  margin: 30px 0 0 8px;
+  min-height: 100px;
+  max-height: 100px;
+}
+
+.tiltHeader {
+  margin: 5px auto;
+  padding: 0 0 2.5px 0;
+  text-align: center;
+  font-weight: lighter;
+  color:#C5BEBE;
+  font-size: 1.25em;
+  border-style: none none solid none;
+  border-width: 1.5px;
+  border-color: #C5BEBE;
+}
+
+.tilt-status {
+  margin: 10px auto 0 auto;
+  text-align: center;
+  color: #D05D5D;
+  border-style: solid none solid none;
+  border-width: 1.5px;
+  border-radius: 10px 0;
+  width: 50%;
+  padding: 1.5px 0 1.5px 0;
+}
+
+.update-tilt {
+  margin: 8px 25px 0 25px;
+  width: 110px;
+  text-align: center;
+  text-decoration: none;
+  background: none;
+  font-size: 0.7em;
+  cursor: pointer;
+  color: #C5BEBE;
+  border-style: solid;
+  border-color:#C5BEBE;
+  border-width: 1.5px;
+  border-radius: 5px;
+  transition: 0.2s;
+
+}
+
+.update-tilt:hover {
+  border-radius: 15px;
+  background-color:#C5BEBE;
+  color: white;
+}
+
+.lowerContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.garlandMenu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-style: solid;
+  border-width: 1.5px;
+  border-radius: 10px;
+  border-color: #C5BEBE;
+  margin: 50px 0 0 30px;
+  width: 180px;
+  height: 60px;
+  background: none;
+  text-decoration: none;
+  font-size: 1em;
+  cursor: pointer;
+  color: #C5BEBE;
+  transition: 0.3s;
+}
+
+.garlandMenu:hover {
+  border-radius: 15px;
+  background-color: #C5BEBE;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+.garlandCount {
+  padding: 5px;
+  border-style: solid; 
+  border-width: 1.5px;
+  border-color: #C5BEBE;
+  border-radius: 5px;
+  left: 65px; 
+  top: 125px; 
+  position: absolute; 
+  background-color: #FFFFFF; 
+  width: 250px; 
+  height: 67px;
+}
+
+.countLabel {
+  font-size: 1em;
+  font-weight: lighter; 
+  color: #C5BEBE; 
+  display: inline-block; 
+  white-space: wrap; 
+  overflow: hidden; 
+  max-width: 150px;
+}
+
+.selection {
+  margin: auto;
+  margin-top: 5px;
+  width: 220px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.garlandSubmit {
+  cursor: pointer; 
+  margin-top: 10px;
+  /* border-radius: 10px; */
+  background: none;
+  background-color: rgb(28, 162, 28);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  border-color: white;
+  box-shadow: 0;
+  padding: 0;
+  outline: inherit;
+  width: 60px;
+  height: 30px;
+  transition: 0.3s;
+  font-size: 0.95em;
+  font-weight: lighter;
+
+}
+
+.garlandSubmit:hover {
+  height: 32px;
+  width: 62px;
+  border-radius: 10px;
+  background-color: rgb(30, 175, 30);
+}
+
+select {
+  appearance: none; /* Remove platform-specific styling */
+  -webkit-appearance: none; /* For Safari */
+  -moz-appearance: none; /* For Firefox */
+  background-color: white; /* Set background color */
+  border-color:#C5BEBE;
+  text-align-last: center;
+  width: 60px;
+  outline: none;
+}
+
+option {
+  width: 60px;
+  text-align-last: center;
+}
+/* .garlandMenu>p {
+  
+} */
